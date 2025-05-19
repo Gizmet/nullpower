@@ -2,6 +2,8 @@
 
 > **Note:** Replace `USER` with your actual Linux username wherever it appears in the following instructions, udev rules, or service files.
 
+For advanced tweaks, see [docs/tweaks.md](tweaks.md). For troubleshooting, see [docs/troubleshooting.md](troubleshooting.md).
+
 ## 1. Install dependencies
 
 ```sh

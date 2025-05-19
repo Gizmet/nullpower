@@ -1,9 +1,18 @@
 # nullpower
 
+![Platform](https://img.shields.io/badge/platform-Linux-informational)
+![License](https://img.shields.io/github/license/Gizmet/nullpower)
+![ThinkPad P1 Gen3](https://img.shields.io/badge/ThinkPad%20P1%20Gen3-Optimized-brightgreen)
+
 > **Note:** Wherever you see `/home/USER` in configuration files or documentation, replace `USER` with your actual Linux username. This makes the project portable for any user account.
 
 Seamless, automatic power profile switching for Linux laptops.  
 Built and tested on ThinkPad P1 Gen 3 (EndeavourOS), but easily adaptable.
+
+## Supported Hardware
+
+- ✔️ **Tested on:** ThinkPad P1 Gen 3
+- 💡 **Should work on:** Any Intel+NVIDIA hybrid laptop, any system using TLP + brightnessctl, Arch-based distros (EndeavourOS, Manjaro, etc.)
 
 ## Features
 
@@ -43,3 +52,8 @@ See [docs/installation.md](docs/installation.md) for full instructions.
 ## License
 
 MIT 
+
+---
+
+**GitHub Topics:**
+`linux` `thinkpad` `power-management` `tlp` `hybrid-graphics` `nvidia` `laptop` `battery` 
