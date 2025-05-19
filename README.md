@@ -51,6 +51,18 @@ See [docs/installation.md](docs/installation.md) for full instructions.
 
 - Requires minimal sudoers rule for systemctl (see install guide)
 
+## Optional: Dynamic CPU Governor (nullpowerd)
+
+- Monitor CPU usage and automatically switch between performance and powersave governors based on real workload.
+- Fully optional, configurable, and independent of TLP/udev logic.
+- See [docs/nullpowerd.md](docs/nullpowerd.md) for setup, config, and usage.
+
+## Acknowledgments
+
+Special thanks to **Dickonstruction** for the idea and inspiration behind the dynamic CPU governor (nullpowerd) feature. Their suggestion led directly to its rapid implementation! 
+
+
+
 ## License
 
 MIT 
