@@ -1,0 +1,8 @@
+# Ignore logs and user data
+*.log
+*.swp
+*~
+
+# Ignore local logs
+docs/*.log
+.local/ 

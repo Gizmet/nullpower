@@ -1,0 +1,11 @@
+[Unit]
+Description=NullPower Power Profile Automation
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/USER/bin/nullpower.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 

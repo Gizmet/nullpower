@@ -1,0 +1,4 @@
+# 99-nullpower.rules - Trigger nullpower.sh on AC/BAT events
+
+SUBSYSTEM=="power_supply", ENV{POWER_SUPPLY_ONLINE}=="0", RUN+="/home/USER/bin/nullpower.sh"
+SUBSYSTEM=="power_supply", ENV{POWER_SUPPLY_ONLINE}=="1", RUN+="/home/USER/bin/nullpower.sh" 
