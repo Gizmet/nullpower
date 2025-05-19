@@ -1,3 +1,5 @@
+![nullpower banner](assets/nullpower.png)
+
 # nullpower
 
 ![Platform](https://img.shields.io/badge/platform-Linux-informational)
